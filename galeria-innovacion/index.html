@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galería virtual e interactiva de innovaciones didácticas. Repositorio de contenidos curados para transferencia web.">
+  <meta name="author" content="Especialista en Innovación Educativa, Metodologías Activas y TIC">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0F766E">
+  <title>Galería Virtual de Innovaciones Didácticas | Académico</title>
+  
+  <!-- Font Awesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- skip link for accessibility -->
+  <a href="#inicio" class="skip-link">Saltar al contenido principal</a>
+
+  <!-- Page Loader -->
+  <div class="page-loader" id="loader">
+    <div class="loader-spinner" role="status" aria-label="Cargando galería"></div>
+  </div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="navbar-container">
+        <a class="navbar-brand" href="#inicio">
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span>Galería de Innovaciones</span>
+        </a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav class="nav-menu" id="nav-menu">
+          <ul class="nav-links">
+            <li class="nav-item"><a href="#inicio" class="active">Inicio</a></li>
+            <li class="nav-item"><a href="#marco-teorico">Marco Teórico</a></li>
+            <li class="nav-item"><a href="#nacionales">Nacionales</a></li>
+            <li class="nav-item"><a href="#internacionales">Internacionales</a></li>
+            <li class="nav-item"><a href="#comparacion">Comparación</a></li>
+            <li class="nav-item"><a href="#conclusiones">Conclusiones</a></li>
+            <li class="nav-item"><a href="#referencias">Referencias</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero / Portada Section -->
+  <section class="hero-home" id="inicio">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <span class="hero-kicker" data-hero-animate="hero-animate-kicker">Académico</span>
+          <h1 data-hero-animate="hero-animate-title">Galería Virtual de Innovaciones Didácticas</h1>
+          <p class="hero-lead" data-hero-animate="hero-animate-lead">Base Teórica y Operativa para el Despliegue de Plataformas Educativas Interactivas</p>
+          <a href="#nacionales" class="hero-cta-btn" data-hero-animate="hero-animate-cta">
+            Explorar Innovaciones
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="hero-metadata">
+          <article class="hero-metadata-card" data-hero-animate="hero-animate-card">
+            <h3>Información del Proyecto</h3>
+            <div class="meta-item">
+              <i class="fa-solid fa-user-tie"></i>
+              <div class="meta-item-text">
+                <strong>Juan Junior Mendoza Tasco</strong>
+                <span>Investigador Principal</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-bezier-curve"></i>
+              <div class="meta-item-text">
+                <strong>Línea de Investigación</strong>
+                <span>Tecnologías Emergentes y Modelos Pedagógicos Contemporáneos</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-bullseye"></i>
+              <div class="meta-item-text">
+                <strong>Propósito</strong>
+                <span>Repositorio de Contenidos Curados para Transferencia Web Interactiva</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-sitemap"></i>
+              <div class="meta-item-text">
+                <strong>Área de I+D</strong>
+                <span>Área de Investigación y Desarrollo Pedagógico</span>
+              </div>
+            </div>
+            <div class="meta-item">
+              <i class="fa-solid fa-calendar-days"></i>
+              <div class="meta-item-text">
+                <strong>Año de Publicación</strong>
+                <span>2026</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Introducción Section -->
+  <section class="py-5 reveal-on-scroll" id="introduccion" style="background-color: var(--color-surface); border-bottom: 1px solid var(--color-border);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Introducción</span>
+        <h2 class="section-title">El Ecosistema de Cambio Didáctico</h2>
+        <p class="section-desc">Contextualización general sobre la metamorfosis educativa, las metodologías activas y la integración de las TIC.</p>
+      </div>
+
+      <div class="detail-sheet-grid" style="grid-template-columns: 1.25fr 0.75fr; gap: 40px; margin-top: 30px; align-items: start;">
+        <div style="display: flex; flex-direction: column; gap: 20px;">
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--color-text-muted); text-align: justify;">
+            El panorama educativo contemporáneo se encuentra inmerso en un proceso de profunda metamorfosis, impulsado por la obsolescencia de los modelos transmisivos tradicionales y la emergencia de una sociedad hiperconectada que demanda nuevas competencias cognitivas, procedimentales y socioemocionales. En este ecosistema de cambio, la innovación didáctica deja de ser una opción de enriquecimiento curricular para constituirse en un imperativo ético, científico y operativo. Innovar en didáctica implica subvertir intencionalmente los roles, las secuencias y las arquitecturas de aprendizaje para dar respuesta efectiva a las necesidades heterogéneas de los educandos.
+          </p>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--color-text-muted); text-align: justify;">
+            Las metodologías activas articulan este cambio paradigmático. Al desplazar el foco de atención desde la enseñanza memorística del docente hacia el aprendizaje autónomo, crítico y colaborativo del estudiante, estas estrategias metodológicas transforman el aula en un laboratorio de experimentación e indagación. Bajo este enfoque, constructos como el Aprendizaje Basado en Proyectos (ABP), el aprendizaje cooperativo y la resolución de problemas reales actúan como catalizadores de un andamiaje cognitivo profundo, logrando que el conocimiento sea transferible y significativo para el sujeto que aprende.
+          </p>
+          <p style="font-size: 1.05rem; line-height: 1.8; color: var(--color-text-muted); text-align: justify;">
+            Por su parte, las Tecnologías de la Información y la Comunicación (TIC) operan como el sustrato infraestructural y mediador indispensable de estos procesos. Lejos de ser meros artefactos instrumentales, las TIC expanden las fronteras del aula espacial y temporalmente, posibilitando la simulación de fenómenos complejos, el acceso democratizado a fuentes de información validadas y el codiseño de soluciones a escala global. La sinergia entre metodologías activas y TIC configura entornos de aprendizaje potentes, adaptables y altamente motivadores.
+          </p>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 25px;">
+          <div class="detail-card" style="padding: 25px; border-left: 4px solid var(--color-accent); background-color: var(--color-bg);">
+            <h3 style="font-size: 1.15rem; margin-bottom: 12px; color: var(--color-primary-light); font-family: var(--font-headings); font-weight: 700;">Propósito</h3>
+            <p style="font-size: 0.95rem; line-height: 1.6; color: var(--color-text-muted); margin: 0; text-align: justify;">
+              El presente trabajo académico tiene como objetivo sistemático investigar, estructurar y documentar cinco de las experiencias de innovación didáctica más representativas a nivel nacional (Colombia) e internacional. A través de un riguroso análisis pedagógico, institucional y técnico, este documento provee la arquitectura de contenidos necesaria para alimentar la plataforma interactiva "Galería Virtual de Innovaciones Didácticas".
+            </p>
+          </div>
+          <div class="theoretical-graphic-placeholder" style="min-height: 180px; padding: 20px;">
+            <i class="fa-solid fa-lightbulb" style="font-size: 2.2rem; color: var(--color-secondary); margin-bottom: 5px;"></i>
+            <span style="font-size: 0.9rem; font-weight: 700;">Base Empírica y Operativa</span>
+            <p style="font-size: 0.8rem; color: var(--color-text-muted); margin: 0; line-height: 1.4; max-width: 90%;">
+              Ofrecer a la comunidad científica y docente un referente analítico robusto que sirva de inspiración, guía y base empírica para la transformación formativa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marco Teórico Section -->
+  <section class="py-5 reveal-on-scroll" id="marco-teorico">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Fundamentación</span>
+        <h2 class="section-title">Marco Teórico Referencial</h2>
+        <p class="section-desc">Estructura teórica que sustenta el análisis pedagógico de las innovaciones didácticas sistematizadas.</p>
+      </div>
+
+      <div class="theoretical-tabs">
+        <div class="tabs-nav" role="tablist" aria-label="Secciones del Marco Teórico">
+          <button class="tab-btn active" id="tab-1" role="tab" aria-selected="true" aria-controls="pane-1">
+            Innovación Educativa vs. Didáctica
+          </button>
+          <button class="tab-btn" id="tab-2" role="tab" aria-selected="false" aria-controls="pane-2">
+            El Sustrato Constructivista
+          </button>
+          <button class="tab-btn" id="tab-3" role="tab" aria-selected="false" aria-controls="pane-3">
+            ABP y Aprendizaje Colaborativo
+          </button>
+          <button class="tab-btn" id="tab-4" role="tab" aria-selected="false" aria-controls="pane-4">
+            Integración de TIC (SAMR & TPACK)
+          </button>
+        </div>
+
+        <div class="tabs-content">
+          <!-- Pane 1: Innovación Educativa vs Didáctica -->
+          <div class="tab-pane active" id="pane-1" role="tabpanel" aria-labelledby="tab-1">
+            <div class="theoretical-item-grid">
+              <article class="theoretical-text">
+                <h3>Innovación Educativa e Innovación Didáctica</h3>
+                <p>Para abordar con rigurosidad científica las experiencias descritas, resulta epistemológicamente indispensable diferenciar la innovación educativa de la innovación didáctica.</p>
+                <p><strong>La innovación educativa</strong> posee un carácter sistémico y macroestructural; abarca transformaciones institucionales, cambios en las políticas públicas, reformas curriculares de amplio espectro, reorganizaciones administrativas y reconfiguraciones de la infraestructura escolar física y digital (UNESCO, 2016).</p>
+                <p>En contraposición, <strong>la innovación didáctica</strong> se ubica en una escala micro y mesoestructural, incidiendo de forma directa sobre los procesos de transposición didáctica dentro del entorno de aprendizaje. Implica la alteración planificada, deliberada y fundamentada de las interacciones entre los componentes del triángulo pedagógico: docente, estudiante y contenido, modificando las estrategias metodológicas, los criterios y herramientas de evaluación, el diseño de materiales y la gestión del clima formativo en el aula.</p>
+              </article>
+              <div class="theoretical-graphic-container">
+                <div class="interactive-svg-container">
+                  <span class="interactive-badge-pulse"><i class="fa-solid fa-circle-nodes"></i> Interactivo</span>
+                  <svg class="interactive-svg" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="grad-macro" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#f8fafc" />
+                        <stop offset="100%" stop-color="#e2e8f0" />
+                      </linearGradient>
+                      <linearGradient id="grad-micro" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#fcfdfd" />
+                        <stop offset="100%" stop-color="#ccfbf1" />
+                      </linearGradient>
+                      <filter id="svg-shadow" x="-10%" y="-10%" width="120%" height="120%">
+                        <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0f766e" flood-opacity="0.08" />
+                      </filter>
+                    </defs>
+                    
+                    <!-- Background Connections -->
+                    <path class="svg-arrow" d="M 160 140 C 180 140, 180 140, 205 140" />
+                    <polygon points="205,140 197,135 197,145" fill="var(--color-text-muted)" opacity="0.7" />
+                    
+                    <!-- Macro Block -->
+                    <g class="svg-node" data-desc="ÁMBITO MACRO: La innovación educativa incide a nivel del sistema escolar completo, regulando las políticas curriculares públicas, el financiamiento y la distribución de recursos e infraestructura escolar." filter="url(#svg-shadow)">
+                      <rect class="svg-bg" x="15" y="20" width="145" height="210" rx="8" fill="url(#grad-macro)" />
+                      <text x="87" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="var(--color-primary)" font-family="var(--font-headings)">ÁMBITO MACRO</text>
+                      <text x="87" y="50" text-anchor="middle" font-size="8" fill="var(--color-text-muted)" font-family="var(--font-body)">(Innovación Educativa)</text>
+                    </g>
+                    
+                    <g class="svg-node" data-desc="POLÍTICAS PÚBLICAS: Normas del Estado que definen qué competencias y asignaturas se priorizan en el sistema oficial.">
+                      <rect class="svg-bg" x="25" y="70" width="125" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="26" y1="72" x2="26" y2="100" />
+                      <text x="87" y="90" text-anchor="middle" class="svg-text" font-size="10">Políticas Públicas</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="REFORMAS CURRICULARES: Cambios macro que transforman los planes globales de estudio y las directrices pedagógicas nacionales.">
+                      <rect class="svg-bg" x="25" y="115" width="125" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="26" y1="117" x2="26" y2="145" />
+                      <text x="87" y="135" text-anchor="middle" class="svg-text" font-size="10">Reformas de Planes</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="INFRAESTRUCTURA DE REDES: Disposición material, conectividad y distribución de hardware escolar digital a gran escala.">
+                      <rect class="svg-bg" x="25" y="160" width="125" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="26" y1="162" x2="26" y2="190" />
+                      <text x="87" y="180" text-anchor="middle" class="svg-text" font-size="10">Infraestructura Física</text>
+                    </g>
+                    
+                    <!-- Micro Block Pedagógico -->
+                    <g class="svg-node" data-desc="ÁMBITO MICRO: La innovación didáctica opera dentro del aula de clases. Modifica directamente el triángulo pedagógico mediante nuevas estrategias, evaluaciones formativas y dinámicas de interacción directa." filter="url(#svg-shadow)">
+                      <rect class="svg-bg" x="205" y="20" width="180" height="210" rx="8" fill="url(#grad-micro)" />
+                      <text x="295" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="var(--color-primary)" font-family="var(--font-headings)">ÁMBITO MICRO</text>
+                      <text x="295" y="50" text-anchor="middle" font-size="8" fill="var(--color-text-muted)" font-family="var(--font-body)">(Innovación Didáctica)</text>
+                    </g>
+                    
+                    <!-- Pedagógico Triangle Lines -->
+                    <line x1="295" y1="90" x2="245" y2="180" stroke="var(--color-text-muted)" stroke-width="1.5" stroke-dasharray="3 3" />
+                    <line x1="295" y1="90" x2="345" y2="180" stroke="var(--color-text-muted)" stroke-width="1.5" stroke-dasharray="3 3" />
+                    <line x1="245" y1="180" x2="345" y2="180" stroke="var(--color-text-muted)" stroke-width="1.5" stroke-dasharray="3 3" />
+                    
+                    <!-- Triangle Nodes -->
+                    <g class="svg-node" data-desc="DOCENTE: Diseña el andamiaje didáctico y actúa como mediador activo y facilitador entre el estudiante y el objeto de conocimiento.">
+                      <circle cx="295" cy="85" r="23" fill="none" stroke="var(--color-secondary)" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6" />
+                      <circle class="svg-bg" cx="295" cy="85" r="20" />
+                      <text x="295" y="88" text-anchor="middle" class="svg-text" font-size="9">Docente</text>
+                    </g>
+                    
+                    <g class="svg-node" data-desc="ESTUDIANTE: Centro gravitacional del aprendizaje. Construye el conocimiento de manera autónoma, colaborativa y reflexiva.">
+                      <circle cx="345" cy="180" r="23" fill="none" stroke="var(--color-secondary)" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6" />
+                      <circle class="svg-bg" cx="345" cy="180" r="20" />
+                      <text x="345" y="183" text-anchor="middle" class="svg-text" font-size="9">Estudiante</text>
+                    </g>
+                    
+                    <g class="svg-node" data-desc="CONTENIDO: Objeto de transposición didáctica. Se reconfigura en unidades interactivas significativas (proyectos, retos).">
+                      <circle cx="245" cy="180" r="23" fill="none" stroke="var(--color-secondary)" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6" />
+                      <circle class="svg-bg" cx="245" cy="180" r="20" />
+                      <text x="245" y="183" text-anchor="middle" class="svg-text" font-size="9">Contenido</text>
+                    </g>
+                  </svg>
+                  <div class="svg-interactive-descriptor" id="desc-pane-1">Pasa el cursor sobre los elementos del diagrama interactivo para ver su análisis detallado.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 2: El Sustrato Constructivista -->
+          <div class="tab-pane" id="pane-2" role="tabpanel" aria-labelledby="tab-2">
+            <div class="theoretical-item-grid">
+              <article class="theoretical-text">
+                <h3>El Sustrato Constructivista</h3>
+                <p>Las innovaciones didácticas contemporáneas encuentran su principal sustento teórico en el constructivismo, un paradigma psicopedagógico que rechaza la noción del estudiante como una tabula rasa receptora de estímulos externos o contenidos estáticos.</p>
+                <p>Desde las aproximaciones cognitivas de <strong>Jean Piaget</strong>, se comprende que el aprendizaje ocurre a través de los mecanismos endógenos de asimilación y acomodación, donde el sujeto reestructura sus esquemas mentales al interactuar activamente con el objeto de conocimiento.</p>
+                <p>Complementariamente, el constructivismo sociocultural de <strong>Lev Vygotsky</strong> postula que el desarrollo cognitivo es intrínsecamente exógeno y mediado socialmente, situándose en la Zona de Desarrollo Próximo (ZDP), aquel espacio dinámico donde el estudiante progresa con el apoyo inter              <div class="theoretical-graphic-container">
+                <div class="interactive-svg-container">
+                  <span class="interactive-badge-pulse"><i class="fa-solid fa-circle-nodes"></i> Interactivo</span>
+                  <svg class="interactive-svg" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="grad-piaget" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#f8fafc" />
+                        <stop offset="100%" stop-color="#e2e8f0" />
+                      </linearGradient>
+                      <linearGradient id="grad-vygotsky" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#fcfdfd" />
+                        <stop offset="100%" stop-color="#ccfbf1" />
+                      </linearGradient>
+                      <filter id="svg-shadow" x="-10%" y="-10%" width="120%" height="120%">
+                        <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0f766e" flood-opacity="0.08" />
+                      </filter>
+                    </defs>
+                    
+                    <!-- Piaget Block -->
+                    <g class="svg-node" data-desc="MECANISMO DE PIAGET: El aprendizaje ocurre mediante la interacción endógena del estudiante, quien reestructura sus esquemas cognitivos mediante la asimilación y la acomodación." filter="url(#svg-shadow)">
+                      <rect class="svg-bg" x="15" y="20" width="165" height="210" rx="8" fill="url(#grad-piaget)" />
+                      <text x="97" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="var(--color-primary)" font-family="var(--font-headings)">PIAGET (COGNITIVO)</text>
+                      <text x="97" y="50" text-anchor="middle" font-size="8" fill="var(--color-text-muted)" font-family="var(--font-body)">Mecanismo Endógeno</text>
+                    </g>
+                    
+                    <g class="svg-node" data-desc="ASIMILACIÓN: El sujeto incorpora la información nueva del entorno adaptándola a sus esquemas cognitivos preexistentes.">
+                      <rect class="svg-bg" x="30" y="70" width="135" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="31" y1="72" x2="31" y2="100" />
+                      <text x="97" y="90" text-anchor="middle" class="svg-text" font-size="10">1. Asimilación</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="DESEQUILIBRIO: Conflicto cognitivo que surge cuando los esquemas previos resultan insuficientes para explicar la nueva información.">
+                      <rect class="svg-bg" x="30" y="115" width="135" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="31" y1="117" x2="31" y2="145" />
+                      <text x="97" y="135" text-anchor="middle" class="svg-text" font-size="10">2. Desequilibrio</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="ACOMODACIÓN: El sujeto modifica sus estructuras cognitivas internas para acoger y dar sentido a la información asimilada.">
+                      <rect class="svg-bg" x="30" y="160" width="135" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="31" y1="162" x2="31" y2="190" />
+                      <text x="97" y="180" text-anchor="middle" class="svg-text" font-size="10">3. Acomodación</text>
+                    </g>
+                    
+                    <!-- Vygotsky Block -->
+                    <g class="svg-node" data-desc="ENFOQUE DE VYGOTSKY: El aprendizaje es intrínsecamente social, cultural e intersubjetivo, ocurriendo en la Zona de Desarrollo Próximo con la ayuda de un mediador." filter="url(#svg-shadow)">
+                      <rect class="svg-bg" x="195" y="20" width="190" height="210" rx="8" fill="url(#grad-vygotsky)" />
+                      <text x="290" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="var(--color-primary)" font-family="var(--font-headings)">VYGOTSKY (SOCIAL)</text>
+                      <text x="290" y="50" text-anchor="middle" font-size="8" fill="var(--color-text-muted)" font-family="var(--font-body)">Mecanismo Exógeno</text>
+                    </g>
+                    
+                    <g class="svg-node" data-desc="DESARROLLO POTENCIAL: Nivel máximo que el estudiante puede alcanzar resolviendo problemas complejos de forma independiente tras el andamiaje.">
+                      <rect class="svg-bg" x="210" y="70" width="160" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="211" y1="72" x2="211" y2="100" />
+                      <text x="290" y="90" text-anchor="middle" class="svg-text" font-size="10">Desarrollo Potencial</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="ZONA DE DESARROLLO PRÓXIMO (ZDP): Espacio de aprendizaje dinámico donde el estudiante progresa con el apoyo y andamiaje de un tutor o par capacitado.">
+                      <rect class="svg-bg" x="210" y="115" width="160" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="211" y1="117" x2="211" y2="145" />
+                      <text x="290" y="135" text-anchor="middle" class="svg-text" font-size="10">ZDP (Andamiaje / Tutor)</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="DESARROLLO REAL: Nivel de partida del estudiante, compuesto por los conocimientos y habilidades que domina autónomamente.">
+                      <rect class="svg-bg" x="210" y="160" width="160" height="32" rx="5" />
+                      <line class="svg-accent-bar" x1="211" y1="162" x2="211" y2="190" />
+                      <text x="290" y="180" text-anchor="middle" class="svg-text" font-size="10">Desarrollo Real (Autónomo)</text>
+                    </g>
+                  </svg>
+                  <div class="svg-interactive-descriptor" id="desc-pane-2">Pasa el cursor sobre los elementos del diagrama interactivo para ver su análisis detallado.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 3: ABP y Aprendizaje Colaborativo -->
+          <div class="tab-pane" id="pane-3" role="tabpanel" aria-labelledby="tab-3">
+            <div class="theoretical-item-grid">
+              <article class="theoretical-text">
+                <h3>Aprendizaje Basado en Proyectos (ABP) y Colaborativo</h3>
+                <p>El Aprendizaje Basado en Proyectos (ABP) constituye la operacionalización práctica del enfoque constructivista. Esta metodología activa organiza la experiencia formativa en torno a la resolución de una pregunta compleja, un desafío genuino o un problema auténtico del entorno del estudiante.</p>
+                <p>El ABP exige el despliegue de habilidades de investigación sistemática, pensamiento crítico, toma de decisiones y autonomía, culminando en la creación de un artefacto o producto público con valor social.</p>
+                <p>En estrecha correspondencia, el aprendizaje colaborativo trasciende la simple división del trabajo grupal; se fundamenta en la interdependencia positiva, la responsabilidad individual, la interacción promotora cara a cara y el desarrollo de destrezas interpersonales. La construcción del saber en entornos colaborativos permite que las diversas perspectivas confluyan en procesos de negociación de significados que enriquecen los resultados cognitivos individuales.</p>
+              </article>
+              <div class="theoretical-graphic-container">
+                <div class="interactive-svg-container">
+                  <span class="interactive-badge-pulse"><i class="fa-solid fa-circle-nodes"></i> Interactivo</span>
+                  <svg class="interactive-svg" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="grad-abp-center" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#0f766e" />
+                        <stop offset="100%" stop-color="#14b8a6" />
+                      </linearGradient>
+                      <filter id="svg-shadow-abp" x="-15%" y="-15%" width="130%" height="130%">
+                        <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#0f766e" flood-opacity="0.12" />
+                      </filter>
+                    </defs>
+                    
+                    <!-- Circular Connection Path -->
+                    <circle cx="200" cy="130" r="75" fill="none" stroke="var(--color-border)" stroke-width="2" stroke-dasharray="5 5" />
+                    
+                    <g class="svg-node" data-desc="1. RETO O PREGUNTA COMPLEJA: El proyecto inicia con una interrogante compleja o problemática auténtica del entorno local que despierta curiosidad.">
+                      <circle cx="200" cy="55" r="27" fill="none" stroke="var(--color-secondary)" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6" />
+                      <circle class="svg-bg" cx="200" cy="55" r="24" />
+                      <text x="200" y="58" text-anchor="middle" class="svg-text" font-size="9">1. Reto</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="2. INVESTIGACIÓN E INDAGACIÓN: Búsqueda activa de información, lectura crítica y análisis de fuentes para responder a la problemática.">
+                      <circle cx="275" cy="105" r="27" fill="none" stroke="var(--color-secondary)" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6" />
+                      <circle class="svg-bg" cx="275" cy="105" r="24" />
+                      <text x="275" y="108" text-anchor="middle" class="svg-text" font-size="9">2. Indagar</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="3. COLABORACIÓN Y CODISEÑO: Trabajo interactivo en grupos, co-creación de ideas y negociación de significados compartidos.">
+                      <circle cx="245" cy="190" r="27" fill="none" stroke="var(--color-secondary)" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6" />
+                      <circle class="svg-bg" cx="245" cy="190" r="24" />
+                      <text x="245" y="193" text-anchor="middle" class="svg-text" font-size="9">3. Colaborar</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="4. CONSTRUCCIÓN DEL ARTEFACTO: Creación física, digital o social de un producto final tangible que resuelve el desafío inicial.">
+                      <circle cx="155" cy="190" r="27" fill="none" stroke="var(--color-secondary)" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6" />
+                      <circle class="svg-bg" cx="155" cy="190" r="24" />
+                      <text x="155" y="193" text-anchor="middle" class="svg-text" font-size="9">4. Crear</text>
+                    </g>
+
+                    <g class="svg-node" data-desc="5. SOCIALIZACIÓN Y PRODUCTO PÚBLICO: Presentación pública del artefacto desarrollado ante la comunidad o expertos para co-evaluación.">
+                      <circle cx="125" cy="105" r="27" fill="none" stroke="var(--color-secondary)" stroke-width="0.75" stroke-dasharray="2 2" opacity="0.6" />
+                      <circle class="svg-bg" cx="125" cy="105" r="24" />
+                      <text x="125" y="108" text-anchor="middle" class="svg-text" font-size="9">5. Socializar</text>
+                    </g>
+                    
+                    <!-- Central Node -->
+                    <circle cx="200" cy="130" r="20" fill="url(#grad-abp-center)" filter="url(#svg-shadow-abp)" />
+                    <text x="200" y="133" text-anchor="middle" font-size="9" font-weight="700" fill="#fff" font-family="var(--font-headings)">ABP</text>
+                  </svg>
+                  <div class="svg-interactive-descriptor" id="desc-pane-3">Pasa el cursor sobre los elementos del diagrama interactivo para ver su análisis detallado.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pane 4: Integración Estratégica de TIC -->
+          <div class="tab-pane" id="pane-4" role="tabpanel" aria-labelledby="tab-4">
+            <div class="theoretical-item-grid">
+              <article class="theoretical-text">
+                <h3>Integración Estratégica de TIC</h3>
+                <p>La incorporación de las TIC en los modelos didácticos innovadores no debe responder a un activismo tecnológico desprovisto de intencionalidad pedagógica. Para comprender su verdadero alcance, marcos de referencia como el modelo SAMR y el enfoque TPACK resultan fundamentales.</p>
+                <p>El modelo <strong>SAMR</strong> (Sustitución, Ampliación, Modificación, Redefinición) propuesto por Puentedura demuestra que las TIC logran su mayor impacto transformador cuando alcanzan los niveles de Modificación y Redefinición, permitiendo el codiseño de actividades pedagógicas que antes eran materialmente imposibles de realizar sin el soporte digital.</p>
+                <p>Por su parte, el modelo <strong>TPACK</strong> (Conocimiento Técnico Pedagógico del Contenido) desarrollado por Mishra y Koehler advierte que la eficacia didáctica radica en la intersección armónica y equilibrada de tres dominios de conocimiento esenciales: el disciplinar (qué se enseña), el pedagógico (cómo se enseña) y el tecnológico (con qué herramientas se potencia el proceso), evitando el determinismo instrumental.</p>
+              </article>
+              <div class="theoretical-graphic-container">
+                <div class="interactive-svg-container">
+                  <span class="interactive-badge-pulse"><i class="fa-solid fa-circle-nodes"></i> Interactivo</span>
+                  <svg class="interactive-svg" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <linearGradient id="grad-tpack-center" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#0f766e" />
+                        <stop offset="100%" stop-color="#14b8a6" />
+                      </linearGradient>
+                      <filter id="svg-shadow-tpack" x="-10%" y="-10%" width="120%" height="120%">
+                        <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#0f766e" flood-opacity="0.08" />
+                      </filter>
+                    </defs>
+                    
+                    <!-- Left: TPACK Venn Diagram -->
+                    <!-- Content Knowledge (CK) -->
+                    <g class="svg-node" data-desc="CONOCIMIENTO DISCIPLINAR (CK): El dominio científico de los temas y contenidos específicos que se van a enseñar (ej. matemáticas, lenguaje, historia).">
+                      <circle cx="100" cy="95" r="38" fill="rgba(15, 118, 110, 0.12)" stroke="var(--color-primary)" stroke-width="2" />
+                      <text x="100" y="74" text-anchor="middle" font-size="9" font-weight="700" fill="var(--color-primary-light)" font-family="var(--font-headings)">DISCIPLINAR (CK)</text>
+                    </g>
+                    
+                    <!-- Pedagogical Knowledge (PK) -->
+                    <g class="svg-node" data-desc="CONOCIMIENTO PEDAGÓGICO (PK): El dominio teórico y práctico de los procesos, métodos y estrategias de enseñanza y aprendizaje (didáctica, evaluación).">
+                      <circle cx="68" cy="142" r="38" fill="rgba(20, 184, 166, 0.12)" stroke="var(--color-accent)" stroke-width="2" />
+                      <text x="50" y="165" text-anchor="middle" font-size="9" font-weight="700" fill="var(--color-primary)" font-family="var(--font-headings)">PEDAGÓGICO (PK)</text>
+                    </g>
+                    
+                    <!-- Technological Knowledge (TK) -->
+                    <g class="svg-node" data-desc="CONOCIMIENTO TECNOLÓGICO (TK): El dominio y entendimiento operativo de las herramientas, medios y recursos tecnológicos digitales e interactivos.">
+                      <circle cx="132" cy="142" r="38" fill="rgba(13, 148, 136, 0.12)" stroke="var(--color-secondary)" stroke-width="2" />
+                      <text x="150" y="165" text-anchor="middle" font-size="9" font-weight="700" fill="var(--color-secondary)" font-family="var(--font-headings)">TECNOLÓGICO (TK)</text>
+                    </g>
+                    
+                    <!-- Central intersection TPACK -->
+                    <g class="svg-node" data-desc="INTERSECCIÓN TPACK: Conocimiento Tecnológico Pedagógico del Contenido. Es la integración armoniosa de tecnología, pedagogía y disciplina en el aula." filter="url(#svg-shadow-tpack)">
+                      <circle cx="100" cy="128" r="16" fill="url(#grad-tpack-center)" stroke="#fff" stroke-width="1.5" />
+                      <text x="100" y="131" text-anchor="middle" font-size="7" font-weight="700" fill="#fff" font-family="var(--font-headings)">TPACK</text>
+                    </g>
+
+                    <!-- Right: SAMR Ladder -->
+                    <!-- Redefinition -->
+                    <g class="svg-node" data-desc="REDEFINICIÓN (Transformación): Creación de nuevas tareas de aprendizaje que eran totalmente imposibles de realizar sin el uso de la tecnología digital.">
+                      <rect class="svg-bg" x="205" y="40" width="155" height="28" rx="5" />
+                      <line class="svg-accent-bar" x1="206" y1="42" x2="206" y2="66" />
+                      <text x="282" y="58" text-anchor="middle" class="svg-text" font-size="10">Redefinición (SAMR)</text>
+                    </g>
+                    
+                    <!-- Modification -->
+                    <g class="svg-node" data-desc="MODIFICACIÓN (Transformación): Rediseño significativo de las tareas de aprendizaje mediante la tecnología, aportando valor añadido didáctico.">
+                      <rect class="svg-bg" x="205" y="80" width="155" height="28" rx="5" />
+                      <line class="svg-accent-bar" x1="206" y1="82" x2="206" y2="106" />
+                      <text x="282" y="98" text-anchor="middle" class="svg-text" font-size="10">Modificación</text>
+                    </g>
+                    
+                    <!-- Augmentation -->
+                    <g class="svg-node" data-desc="AMPLIACIÓN (Mejora): Sustitución directa de una herramienta analógica por una digital con mejoras funcionales sutiles (ej. autocalificación).">
+                      <rect class="svg-bg" x="205" y="120" width="155" height="28" rx="5" />
+                      <line class="svg-accent-bar" x1="206" y1="122" x2="206" y2="146" />
+                      <text x="282" y="138" text-anchor="middle" class="svg-text" font-size="10">Ampliación</text>
+                    </g>
+                    
+                    <!-- Substitution -->
+                    <g class="svg-node" data-desc="SUSTITUCIÓN (Mejora): Sustitución directa de una herramienta analógica por una digital sin ningún cambio metodológico o funcional (ej. leer un PDF en pantalla).">
+                      <rect class="svg-bg" x="205" y="160" width="155" height="28" rx="5" />
+                      <line class="svg-accent-bar" x1="206" y1="162" x2="206" y2="186" />
+                      <text x="282" y="178" text-anchor="middle" class="svg-text" font-size="10">Sustitución</text>
+                    </g>
+
+                    <!-- Arrow showing progression -->
+                    <path class="svg-arrow solid" d="M 375 185 L 375 50" />
+                    <polygon points="375,45 371,53 379,53" fill="var(--color-primary)" />
+                    <text x="383" y="115" text-anchor="middle" font-size="8" font-weight="700" fill="var(--color-primary)" transform="rotate(-90 383 115)" font-family="var(--font-headings)">TRANSFORMACIÓN</text>
+                  </svg>
+                  <div class="svg-interactive-descriptor" id="desc-pane-4">Pasa el cursor sobre los elementos del diagrama interactivo para ver su análisis detallado.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiencias Nacionales Section -->
+  <section class="py-5 bg-light" id="nacionales">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Ámbito Nacional</span>
+        <h2 class="section-title">Experiencias Nacionales (Colombia)</h2>
+        <p class="section-desc">Innovaciones didácticas de gran escala diseñadas y desplegadas en el contexto educativo colombiano.</p>
+      </div>
+
+      <div class="experiences-grid">
+        <!-- CPE Card -->
+        <article class="experience-card reveal-on-scroll" style="--delay: 0.05s;">
+          <div class="experience-card-header" style="background-image: url('img/computadores-para-educar.jpg');">
+            <span class="experience-badge">Nacional 1</span>
+            <div class="experience-image">
+              <img src="img/computadores-para-educar.jpg" alt="Programa Computadores para Educar">
+            </div>
+            <!-- Espacio para el logo institucional -->
+            <!-- Logo oficial de Computadores para Educar (MinTIC/MinEducación) -->
+            <div class="logo-badge" title="Logo CPE">
+              <img src="img/logo-computadores.JPG" alt="Logo Computadores para Educar" class="logo-badge-img">
+            </div>
+          </div>
+          <div class="experience-card-body">
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Colombia</span>
+              <span><i class="fa-solid fa-calendar"></i> Año 2000</span>
+            </div>
+            <h3>Computadores para Educar (CPE)</h3>
+            <p>Estrategia interinstitucional integral orientada a la dotación tecnológica, apropiación social de las TIC y formación docente situada basada en el modelo TPACK para fortalecer la ruralidad colombiana.</p>
+            <div class="card-actions">
+              <button class="details-btn" data-drawer-trigger="cpe">
+                Ver Detalle <i class="fa-solid fa-circle-info"></i>
+              </button>
+              <a href="nacional/experiencia1.html" class="subpage-link">Ficha estática <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Escuela Nueva Card -->
+        <article class="experience-card reveal-on-scroll" style="--delay: 0.22s;">
+          <div class="experience-card-header" style="background-image: url('img/escuela_nueva_banner.png');">
+            <span class="experience-badge">Nacional 2</span>
+
+    <div class="image-placeholder">
+        <i class="fa-solid fa-users-viewfinder"></i>
+        <span>Escuela Nueva (FEN)</span>
+    </div>
+
+    <!-- Logo de la Fundación Escuela Nueva -->
+    <div class="logo-badge" title="Logo Fundación Escuela Nueva">
+        <img src="img/logo-nueva.jpg"
+             alt="Logo Fundación Escuela Nueva"
+             class="logo-badge-img">
+    </div>
+</div>
+          <div class="experience-card-body">
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Colombia</span>
+              <span><i class="fa-solid fa-calendar"></i> Año 1975</span>
+            </div>
+            <h3>Escuela Nueva</h3>
+            <p>Modelo pedagógico disruptivo y vernáculo diseñado para escuelas rurales multigrado que implementa el aprendizaje personalizado, guías de autoaprendizaje autogestionado y gobierno escolar democrático.</p>
+            <div class="card-actions">
+              <button class="details-btn" data-drawer-trigger="escuela-nueva">
+                Ver Detalle <i class="fa-solid fa-circle-info"></i>
+              </button>
+              <a href="nacional/experiencia2.html" class="subpage-link">Ficha estática <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- PTA Card -->
+        <article class="experience-card reveal-on-scroll" style="--delay: 0.38s;">
+          <div class="experience-card-header" style="background-image: url('img/pta_banner.png');">
+            <span class="experience-badge">Nacional 3</span>
+            <div class="image-placeholder">
+              <i class="fa-solid fa-chalkboard-user"></i>
+              <span>Programa Todos a Aprender (PTA)</span>
+            </div>
+            <!-- Logotipo oficial del Ministerio de Educación Nacional de Colombia - Programa Todos a Aprender -->
+            <div class="logo-badge" title="Logo PTA">
+              <img src="img/logo-todos.png"
+                   alt="Logo Programa Todos a Aprender"
+                   class="logo-badge-img">
+            </div>
+          </div>
+          <div class="experience-card-body">
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Colombia</span>
+              <span><i class="fa-solid fa-calendar"></i> Año 2011</span>
+            </div>
+            <h3>Todos a Aprender (PTA)</h3>
+            <p>Estrategia nacional de equidad enfocada en transformar las prácticas pedagógicas y el acompañamiento dialógico situado in-situ por medio de tutores docentes y comunidades de aprendizaje (CDA).</p>
+            <div class="card-actions">
+              <button class="details-btn" data-drawer-trigger="pta">
+                Ver Detalle <i class="fa-solid fa-circle-info"></i>
+              </button>
+              <a href="nacional/experiencia3.html" class="subpage-link">Ficha estática <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiencias Internacionales Section -->
+  <section class="py-5" id="internacionales">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Ámbito Global</span>
+        <h2 class="section-title">Experiencias Internacionales</h2>
+        <p class="section-desc">Iniciativas educativas de vanguardia tecnológica y espacial implementadas internacionalmente.</p>
+      </div>
+
+      <div class="experiences-grid">
+        <!-- FRS Card -->
+        <article class="experience-card reveal-on-scroll" style="--delay: 0.05s;">
+          <div class="experience-card-header" style="background-image: url('img/frs_banner.png');">
+            <span class="experience-badge">Internacional 1</span>
+
+    <div class="image-placeholder">
+        <i class="fa-solid fa-arrows-to-eye"></i>
+        <span>Future Ready Schools (FRS)</span>
+    </div>
+
+    <!-- Logotipo oficial de Future Ready Schools -->
+    <div class="logo-badge" title="Logo Future Ready Schools">
+        <img src="img/logo-f.png"
+             alt="Logo Future Ready Schools"
+             class="logo-badge-img">
+    </div>
+</div>
+          <div class="experience-card-body">
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> EE. UU.</span>
+              <span><i class="fa-solid fa-calendar"></i> Año 2014</span>
+            </div>
+            <h3>Future Ready Schools (FRS)</h3>
+            <p>Marco de planificación sistémico y estratégico holístico (7 Gears) diseñado para facilitar la transición hacia ecosistemas de aprendizaje digital dinámicos, personalizados y equitativos.</p>
+            <div class="card-actions">
+              <button class="details-btn" data-drawer-trigger="frs">
+                Ver Detalle <i class="fa-solid fa-circle-info"></i>
+              </button>
+              <a href="internacional/experiencia1.html" class="subpage-link">Ficha estática <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </article>
+
+        <!-- FCL Card -->
+        <article class="experience-card reveal-on-scroll" style="--delay: 0.25s;">
+          <div class="experience-card-header" style="background-image: url('img/fcl_banner.png');">
+            <span class="experience-badge">Internacional 2</span>
+
+    <div class="image-placeholder">
+        <i class="fa-solid fa-cubes-stacked"></i>
+        <span>Future Classroom Lab (FCL)</span>
+    </div>
+
+    <!-- Logotipo oficial de European Schoolnet - Future Classroom Lab -->
+    <div class="logo-badge" title="Logo Future Classroom Lab">
+        <img src="img/class.jpg"
+             alt="Logo Future Classroom Lab"
+             class="logo-badge-img">
+    </div>
+</div>
+          <div class="experience-card-body">
+            <div class="card-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Europa / Bélgica</span>
+              <span><i class="fa-solid fa-calendar"></i> Año 2012</span>
+            </div>
+            <h3>Future Classroom Lab (FCL)</h3>
+            <p>Espacio demostrativo e inspirador de investigación viva que propone disolver las barreras físicas del aula industrial segmentándola en seis zonas funcionales de aprendizaje activo.</p>
+            <div class="card-actions">
+              <button class="details-btn" data-drawer-trigger="fcl">
+                Ver Detalle <i class="fa-solid fa-circle-info"></i>
+              </button>
+              <a href="internacional/experiencia2.html" class="subpage-link">Ficha estática <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparación Sistémica Section -->
+  <section class="py-5 bg-light reveal-on-scroll" id="comparacion">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Análisis Comparativo</span>
+        <h2 class="section-title">Comparación Sistémica de las Experiencias</h2>
+        <p class="section-desc">Matriz analítica transversal que contrasta las dimensiones fundamentales de los modelos didácticos nacionales e internacionales.</p>
+      </div>
+
+      <!-- Table Interactive Filters -->
+      <div class="table-filter-bar">
+        <button class="table-filter-btn active" data-highlight="all">Mostrar Todos</button>
+        <button class="table-filter-btn" data-highlight="1">CPE (Colombia)</button>
+        <button class="table-filter-btn" data-highlight="2">Escuela Nueva (Col)</button>
+        <button class="table-filter-btn" data-highlight="3">PTA (Colombia)</button>
+        <button class="table-filter-btn" data-highlight="4">FRS (EE. UU.)</button>
+        <button class="table-filter-btn" data-highlight="5">FCL (Europa)</button>
+      </div>
+
+      <div class="table-wrapper">
+        <table class="comparison-table" id="comparison-table">
+          <thead>
+            <tr>
+              <th>Criterio / Dimensión</th>
+              <th data-col="1">CPE</th>
+              <th data-col="2">Escuela Nueva</th>
+              <th data-col="3">PTA</th>
+              <th data-col="4">FRS</th>
+              <th data-col="5">FCL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Objetivos</td>
+              <td data-col="1">Reducir la brecha digital rural y urbana mediante la dotación tecnológica y la formación continua del profesorado en Colombia.</td>
+              <td data-col="2">Garantizar cobertura universal y calidad formativa en escuelas rurales multigrado, promoviendo la equidad social.</td>
+              <td data-col="3">Transformar las prácticas pedagógicas de los docentes para mejorar las competencias en lenguaje y matemáticas en escuelas públicas con bajo desempeño.</td>
+              <td data-col="4">Guiar la planeación estratégica sistémica de distritos escolares en EE. UU. para la transición efectiva hacia un modelo de educación digital integral.</td>
+              <td data-col="5">Investigar y validar cómo la reconfiguración de la arquitectura espacial del aula y las TIC potencian las habilidades del siglo XXI.</td>
+            </tr>
+            <tr>
+              <td>Enfoque Pedagógico</td>
+              <td data-col="1">Modelo TPACK (Conocimiento Técnico Pedagógico del Contenido).</td>
+              <td data-col="2">Escuela Activa, Constructivismo sociocultural y Aprendizaje Centrado en el Estudiante.</td>
+              <td data-col="3">Desarrollo Profesional Docente Situado (DPDS) y Acompañamiento Dialógico entre Pares.</td>
+              <td data-col="4">Aprendizaje Personalizado y Diseño Instruccional Flexible centrado en competencias digitales.</td>
+              <td data-col="5">Conectivismo y Diseño Instruccional Socio-constructivista mediado por el espacio físico.</td>
+            </tr>
+            <tr>
+              <td>Metodologías Activas</td>
+              <td data-col="1">Aprendizaje Basado en Proyectos (ABP) y Educación Integrada STEM/STEAM.</td>
+              <td data-col="2">Aprendizaje Autogestionado a Ritmo Propio, Colaboración Grupal y Gobierno Escolar Democrático.</td>
+              <td data-col="3">Comunidades de Aprendizaje (CDA), Co-planeación Curricular y Observación de Prácticas de Aula.</td>
+              <td data-col="4">Aula Invertida (Flipped Classroom) y Aprendizaje Híbrido (Blended Learning).</td>
+              <td data-col="5">Aprendizaje Basado en la Indagación, Diseño de Artefactos Digitales y Ludificación Avanzada.</td>
+            </tr>
+            <tr>
+              <td>Uso de TIC</td>
+              <td data-col="1">Dispositivos móviles portátiles, laboratorios de robótica escolar y contenidos interactivos offline precargados.</td>
+              <td data-col="2">Hibridación progresiva de guías de autoaprendizaje impresas con contenidos interactivos en tabletas offline.</td>
+              <td data-col="3">Uso analítico de plataformas diagnósticas y software educativo institucional de seguimiento del aprendizaje.</td>
+              <td data-col="4">Estrategias de dispositivos 1:1, plataformas adaptativas automatizadas y ecosistemas LMS basados en la nube.</td>
+              <td data-col="5">Tecnologías de fabricación digital (3D), Realidad Virtual/Aumentada, entornos audiovisuales e IoT en el aula.</td>
+            </tr>
+            <tr>
+              <td>Foco de Innovación</td>
+              <td data-col="1">Modelo integral tripartito: Infraestructura física de última generación + Formación Docente + Gestión Ambiental de Residuos.</td>
+              <td data-col="2">Promoción flexible y diseño didáctico conversacional de guías impresas autogestionadas comunitarias.</td>
+              <td data-col="3">La figura del Tutor Pedagógico in-situ que co-planea e interviene la clase real en tiempo real.</td>
+              <td data-col="4">Marco estratégico de Siete Engranajes (7 Gears) para la transformación de la gestión educativa distrital.</td>
+              <td data-col="5">Conceptualización y despliegue operativo del aula segmentada en Seis Zonas Funcionales de Aprendizaje.</td>
+            </tr>
+            <tr>
+              <td>Impacto Evidenciado</td>
+              <td data-col="1">Reducción demostrada de la deserción escolar y mejora de resultados en Pruebas de Estado (Saber 11).</td>
+              <td data-col="2">Reconocimiento mundial; superación del rendimiento académico rural sobre el urbano en mediciones históricas de la UNESCO.</td>
+              <td data-col="3">Incremento estadístico en puntajes de Pruebas Saber de primaria y estandarización didáctica pública nacional.</td>
+              <td data-col="4">Adhesión formal de más de 3,500 superintendentes escolares y optimización sistémica del gasto en tecnología educativa.</td>
+              <td data-col="5">Creación de la red europea de laboratorios de aulas del futuro y transformación de programas curriculares de formación docente.</td>
+            </tr>
+            <tr>
+              <td>Fortalezas Principales</td>
+              <td data-col="1">Estructura institucional robusta con alto respaldo gubernamental y alcance logístico de cobertura nacional.</td>
+              <td data-col="2">Bajísimo costo operativo analógico, alta adaptabilidad social y fomento profundo de la ciudadanía democrática escolar.</td>
+              <td data-col="3">Formación docente directa en el aula real que genera baja resistencia al cambio metodológico institucional.</td>
+              <td data-col="4">Estructura holística que previene la compra ineficiente de tecnología desvinculada del proyecto educativo del centro.</td>
+              <td data-col="5">Inspiración arquitectónica vanguardista basada en la evidencia del espacio físico como agente didáctico activo.</td>
+            </tr>
+            <tr>
+              <td>Debilidades / Retos</td>
+              <td data-col="1">Dependencia crítica de conectividad en zonas rurales apartadas y problemas con fluidos eléctricos estables.</td>
+              <td data-col="2">Riesgo de desnaturalización pedagógica del modelo original debido a la burocratización durante su escalamiento masivo.</td>
+              <td data-col="3">Inestabilidad de contratos laborales del personal tutor y sobrecarga de procesos administrativos al maestro.</td>
+              <td data-col="4">Agudización de brechas digitales horizontales entre distritos ricos y distritos escolares vulnerables.</td>
+              <td data-col="5">Elevados costos económicos de implementación material y riesgo de reducir el modelo a un cambio puramente estético.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <article class="detail-card mt-4" style="margin-top: 30px;">
+        <h2><i class="fa-solid fa-magnifying-glass-chart"></i> Síntesis Comparativa</h2>
+        <p>El análisis transversal de las experiencias nacionales e internacionales revela una convergencia teórica innegable: todas las innovaciones analizadas abandonan formalmente los postulados de la pedagogía tradicional conductista para abrazar variantes socio-constructivistas que sitúan al estudiante en el núcleo dinámico de los procesos formativos. Sin embargo, los mecanismos de operacionalización y los puntos de partida varían de forma sustancial en función del contexto socioeconómico e infraestructural de las regiones donde se despliegan.</p>
+        <p>A nivel metodológico, se observa que mientras los modelos internacionales como Future Ready Schools (Estados Unidos) y Future Classroom Lab (Bélgica/Unión Europea) estructuran su propuesta didáctica asumiendo la existencia previa de una infraestructura tecnológica de alta velocidad conectada permanentemente a la nube (LMS, analítica adaptativa, IoT, realidad virtual), los modelos surgidos en Colombia deben diseñar soluciones metodológicas resilientes.</p>
+        <p>Escuela Nueva constituye el ejemplo paradigmático de resiliencia didáctica, demostrando que es viable generar procesos metacognitivos complejos y de alta calidad mediante tecnologías analógicas conversacionales (guías impresas autogestionadas) articuladas con estructuras sociales de participación estudiantil en el aula (gobierno escolar). Por su parte, Computadores para Educar abordó esta disparidad infraestructural mediante la innovación logística de pre-cargar contenidos interactivos (como el ecosistema de Colombia Aprende) directamente en el almacenamiento local de los dispositivos antes de su envío a las zonas rurales sin conectividad, convirtiendo el hardware en repositorios interactivos locales.</p>
+        <p>Respecto al foco de intervención estratégica para viabilizar la innovación didáctica, los modelos muestran aproximaciones complementarias de alta relevancia para el codiseño de entornos digitales interactivos. El Programa Todos a Aprender (PTA) sitúa la palanca de cambio exclusivamente en la práctica del docente de base mediante el acompañamiento pedagógico situado e in-situ del Tutor, asumiendo que la didáctica se transforma desde la reflexión sobre la acción en el aula real. En contraposición, Future Ready Schools postula un enfoque sistémico-institucional, argumentando que cualquier intento de innovación didáctica aislado en un aula está condenado al fracaso si la dirección del distrito escolar no alinea de antemano el presupuesto, la infraestructura tecnológica y la flexibilización horaria (Marco de los Siete Engranajes). Finalmente, el Future Classroom Lab expande este marco al introducir la variable del diseño arquitectónico del espacio escolar como un agente pedagógico activo (el tercer profesor), rompiendo la distribución espacial de filas y columnas de la era industrial para segmentar el aula en zonas funcionales de competencias del siglo XXI.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Conclusiones Section -->
+  <section class="py-5" id="conclusiones">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Cierre Teórico</span>
+        <h2 class="section-title">Conclusiones Generales</h2>
+        <p class="section-desc">Ejes concluyentes que guían la integración didáctica, la sostenibilidad pedagógica y el diseño metodológico de entornos de aprendizaje.</p>
+      </div>
+
+      <div class="conclusions-grid">
+        <!-- Conclusión 1 -->
+        <article class="conclusion-card reveal-on-scroll" style="--delay: 0.05s;">
+          <div class="conclusion-number">01</div>
+          <h3>Primacía de la pedagogía sobre el instrumental tecnológico</h3>
+          <p>La eficacia de una innovación didáctica no está determinada por el nivel de sofisticación técnica o el costo de los dispositivos digitales implementados, sino por la coherencia conceptual de su diseño metodológico. Modelos analógicos y de baja tecnología como Escuela Nueva demuestran impactos cognitivos y socioemocionales equiparables o superiores a entornos hipertecnológicos si los procesos de andamiaje pedagógico, autonomía estudiantil e interacción colaborativa están sólidamente fundamentados.</p>
+        </article>
+
+        <!-- Conclusión 2 -->
+        <article class="conclusion-card reveal-on-scroll" style="--delay: 0.18s;">
+          <div class="conclusion-number">02</div>
+          <h3>Desarrollo profesional situado como eje de sostenibilidad</h3>
+          <p>La dotación material de hardware educativo deviene en un activismo infructuoso si no está acompañada de procesos de formación docente continuos, situados y contextualizados. Programas como el PTA y Computadores para Educar evidencian que el cambio didáctico real ocurre cuando los educadores cuentan con espacios de co-creación práctica entre pares (Comunidades de Aprendizaje) y acompañamientos dialógicos directos dentro de sus propias aulas de clase.</p>
+        </article>
+
+        <!-- Conclusión 3 -->
+        <article class="conclusion-card reveal-on-scroll" style="--delay: 0.3s;">
+          <div class="conclusion-number">03</div>
+          <h3>Necesidad de un enfoque sistémico y holístico</h3>
+          <p>La transformación de las prácticas de aula no puede ser un acto insular o voluntarista del maestro de asignatura. Marcos estratégicos como el propuesto por Future Ready Schools demuestran de forma concluyente que para blindar la viabilidad y permanencia de las innovaciones didácticas se requiere la alineación armónica de variables de liderazgo directivo, flexibilidad en el uso de los tiempos curriculares, presupuestos estables y culturas institucionales abiertas a la experimentación.</p>
+        </article>
+
+        <!-- Conclusión 4 -->
+        <article class="conclusion-card reveal-on-scroll" style="--delay: 0.42s;">
+          <div class="conclusion-number">04</div>
+          <h3>El espacio escolar como un agente didáctico activo</h3>
+          <p>La configuración espacial de las aulas convencionales, heredada del modelo fabril industrial del siglo XIX, restringe la implementación fluida de las metodologías activas. La deconstrucción y segmentación funcional de los entornos de aprendizaje en zonas orientadas a competencias específicas (como propone el Future Classroom Lab) potencia la versatilidad didáctica, estimula la motivación intrínseca del educando y facilita la diversificación de las trayectorias de aprendizaje.</p>
+        </article>
+
+        <!-- Conclusión 5 -->
+        <article class="conclusion-card reveal-on-scroll" style="grid-column: 1 / -1; max-width: 800px; margin: 0 auto; --delay: 0.2s;">
+          <div class="conclusion-number">05</div>
+          <h3>Equidad y diseño contextualizado como imperativos éticos</h3>
+          <p>Las innovaciones didácticas deben ser diseñadas con una profunda sensibilidad contextual, reconociendo que las brechas infraestructurales y de conectividad pueden profundizar las inequidades educativas si no se generan estrategias híbridas o resilientes. La flexibilización curricular, la promoción adaptable y el uso inteligente de recursos digitales offline son mecanismos fundamentales para garantizar que la innovación opere como una fuerza democratizadora del conocimiento y no como un factor de exclusión social.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Referencias Bibliográficas Section -->
+  <section class="py-5 bg-light reveal-on-scroll" id="referencias">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Fuentes</span>
+        <h2 class="section-title">Referencias Bibliográficas (APA 7)</h2>
+        <p class="section-desc">Catálogo de literatura científica y documentos de políticas públicas.</p>
+      </div>
+
+      <ul class="references-list">
+        <li>Alliance for Excellent Education. (2020). <em>Future Ready Schools: A systemic framework for digital learning readiness</em>. All4Ed. <a href="https://futureready.org/about-the-framework/" target="_blank" rel="noopener noreferrer">https://futureready.org/about-the-framework/</a></li>
+        <li>Bannister, D. (2017). <em>Guidelines on exploring and adapting learning spaces in schools</em>. European Schoolnet. <a href="http://fcl.eun.org/publications" target="_blank" rel="noopener noreferrer">http://fcl.eun.org/publications</a></li>
+        <li>Colbert, V., & Arboleda, J. (2016). <em>Escuela Nueva General Model: A national innovation for improving primary education in rural Colombia</em>. Fundación Escuela Nueva.</li>
+        <li>Computadores para Educar. (2022). <em>Informe de gestión y resultados de impacto pedagógico</em>. Ministerio de Tecnologías de la Información y las Comunicaciones / Ministerio de Educación Nacional de Colombia.</li>
+        <li>European Schoolnet. (2018). <em>The Future Classroom Lab handbook: Guidelines for rethinking learning spaces and pedagogies</em>. EUN.</li>
+        <li>García, S., Maldonado, D., Perry, G., & Rodríguez, C. (2014). <em>Tras la excelencia docente: Cómo mejorar la calidad de la educación en Colombia</em>. Fundación Compartir.</li>
+        <li>Ministerio de Educación Nacional de Colombia. (2019). <em>Evolución pedagógica del Programa Todos a Aprender (PTA): Balance de una década</em>. MEN.</li>
+        <li>Mishra, P., & Koehler, M. J. (2006). Technological pedagogical content knowledge: A framework for teacher knowledge. <em>Teachers College Record</em>, 108(6), 1017-1054. <a href="https://doi.org/10.1111/j.1467-9620.2006.00684.x" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/j.1467-9620.2006.00684.x</a></li>
+        <li>Morus, M. (2018). <em>Digital learning transformation in K-12 education: An evaluation of the Future Ready Framework</em>. TechEducate Research.</li>
+        <li>Psacharopoulos, G., Rojas, C., & Velez, E. (1993). Achievement evaluation of Colombia's Escuela Nueva: Is can it be replicated? <em>Comparative Education Review</em>, 37(3), 263-276. <a href="https://doi.org/10.1086/447192" target="_blank" rel="noopener noreferrer">https://doi.org/10.1086/447192</a></li>
+        <li>UNESCO. (2016). <em>Innovación educativa: Serie Herramientas de apoyo para el trabajo docente</em>. Oficina de la UNESCO en Lima.</li>
+        <li>Universidad de los Andes. (2015). <em>Evaluación de impacto del programa Computadores para Educar en la calidad de la educación de Colombia</em>. Centro de Estudios sobre Desarrollo Económico (CEDE).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Interactive Drawers for Details -->
+  
+  <!-- CPE Drawer -->
+  <div class="experience-drawer" id="drawer-cpe" role="dialog" aria-modal="true" aria-labelledby="drawer-cpe-title">
+    <div class="drawer-overlay" data-drawer-close></div>
+    <div class="drawer-content">
+      <header class="drawer-header">
+        <h2 id="drawer-cpe-title">Computadores para Educar (CPE)</h2>
+        <button class="close-drawer" data-drawer-close aria-label="Cerrar detalles"><i class="fa-solid fa-xmark"></i></button>
+      </header>
+      <div class="drawer-body">
+        <div class="drawer-meta-bar">
+          <span class="drawer-meta-badge"><i class="fa-solid fa-building-columns"></i> MinTIC, MEN, SENA</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-location-dot"></i> Colombia</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-calendar"></i> Inicio: 2000</span>
+        </div>
+
+        <div class="drawer-image-section">
+          <!-- Banner principal sugerido -->
+          <div class="drawer-image-card banner" style="padding: 0; overflow: hidden; background: none; border: none; box-shadow: none;">
+            <img src="img/estudiantes-rural.jpg" alt="Estudiantes de una escuela rural interactuando colaborativamente con tabletas digitales en un aula abierta" style="width: 100%; border-radius: var(--radius-md); object-fit: cover; aspect-ratio: 16/9; display: block;">
+            <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 8px; font-style: italic; line-height: 1.4; text-align: left;"> Estudiantes colombianos desarrollan competencias del siglo XXI mediante el uso de tecnologías móviles provistas por CPE.</p>
+          </div>
+          <!-- Logo institucional -->
+          <div class="drawer-image-card">
+    <img src="../img/logo-computadores.jpg"
+         alt="Logo Computadores para Educar"
+         class="drawer-logo">
+
+    <strong>Logo Institucional</strong>
+
+    <p>Logotipo oficial de Computadores para Educar (MinTIC/MinEducación).</p>
+</div>
+          <!-- Sitio Oficial -->
+          <div class="drawer-image-card">
+            <i class="fa-solid fa-arrow-pointer"></i>
+            <strong>Recursos Web</strong>
+            <p><a href="http://www.computadoresparaeducar.gov.co" target="_blank" rel="noopener noreferrer">www.computadoresparaeducar.gov.co</a></p>
+          </div>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-book-open"></i> Breve Historia</h3>
+          <p>Computadores para Educar nació al inicio del siglo XXI como una estrategia interinstitucional inspirada en modelos de reutilización tecnológica internacional. Inicialmente enfocado en el reacondicionamiento de hardware donado por empresas privadas y entidades estatales para ser asignado a escuelas públicas rurales, el programa evolucionó con celeridad hacia una política integral de apropiación social, desarrollo profesional docente y gestión de infraestructura tecnológica de vanguardia.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-school"></i> Contexto Educativo</h3>
+          <p>El programa se implementa en el sistema de educación pública de Colombia, con un énfasis prioritario y estratégico en sedes educativas rurales, periurbanas y vulnerables que históricamente han padecido exclusión socioeconómica y falta de acceso a conectividad, reduciendo las brechas digitales y de equidad del país.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-lightbulb"></i> Enfoque Pedagógico</h3>
+          <p>El programa fundamenta sus procesos de formación docente en el modelo conceptual TPACK (Mishra & Koehler, 2006). Este enfoque garantiza que la entrega de infraestructura tecnológica esté intrínsecamente supeditada al fortalecimiento del conocimiento pedagógico y disciplinar de los educadores, promoviendo una transposición didáctica significativa de los contenidos digitales en el aula.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-people-group"></i> Metodología Activa</h3>
+          <p>Promueve de manera decidida el Aprendizaje Basado en Proyectos (ABP) y el enfoque educativo STEM/STEAM (Ciencia, Tecnología, Ingeniería, Artes y Matemáticas). Los docentes formados por el programa diseñan experiencias de aprendizaje donde los estudiantes emplean la tecnología disponible para investigar problemáticas de sus comunidades agrarias o locales, diseñando soluciones tangibles y evaluables.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-laptop"></i> Uso de TIC</h3>
+          <p>La estrategia integra la dotación de computadores portátiles, tabletas digitales, laboratorios pedagógicos de robótica, entornos virtuales de aprendizaje sin necesidad de conectividad permanente (contenidos precargados como Colombia Aprende) y software especializado de simulación científica y modelado matemático.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-star"></i> Aportes Innovadores</h3>
+          <p>Su principal innovación radica en la articulación de un modelo de triple impacto: dotación de hardware de última generación, formación docente situada y continuada con acompañamiento en el aula, y una estrategia de demanufactura y gestión ambiental de residuos electrónicos (Cenit), única en la región latinoamericana.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-chart-line"></i> Resultados o Impacto</h3>
+          <p>Evaluaciones de impacto externas coordinadas por el Centro de Estudios sobre Desarrollo Económico (CEDE) de la Universidad de los Andes demostraron que el programa reduce significativamente las tasas de deserción escolar, incrementa los resultados de los estudiantes en las pruebas de Estado (Saber 11), y eleva la probabilidad de tránsito inmediato de los jóvenes rurales hacia la educación superior.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i> Análisis Crítico</h3>
+          <p>A pesar de sus innegables aciertos logísticos y pedagógicos, la iniciativa enfrenta desafíos crónicos relacionados con la sostenibilidad de la infraestructura física en zonas con fluidos eléctricos inestables, la obsolescencia programada de los dispositivos y la persistente falta de conectividad a internet de banda ancha en la ruralidad profunda, lo que limita el uso de herramientas en la nube.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-flag"></i> Conclusión</h3>
+          <p>Computadores para Educar trasciende la noción asistencialista de entrega de equipos para consolidarse como una política pública de transformación cultural y pedagógica que ha democratizado el acceso a las TIC, sentando las bases operativas de la alfabetización digital en la educación pública colombiana.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-quote-left"></i> Referencias</h3>
+          <p>Computadores para Educar. (2022). <em>Informe de gestión y resultados de impacto pedagógico</em>. MinTIC / MEN.</p>
+          <p>Universidad de los Andes. (2015). <em>Evaluación de impacto del programa Computadores para Educar en la calidad de la educación de Colombia</em>. CEDE.</p>
+        </div>
+      </div>
+      <footer class="drawer-footer-actions">
+        <a href="nacional/experiencia1.html" class="hero-cta-btn" style="padding: 10px 22px; font-size: 0.85rem;">Ir a Ficha Estática <i class="fa-solid fa-chevron-right"></i></a>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Escuela Nueva Drawer -->
+  <div class="experience-drawer" id="drawer-escuela-nueva" role="dialog" aria-modal="true" aria-labelledby="drawer-escuela-nueva-title">
+    <div class="drawer-overlay" data-drawer-close></div>
+    <div class="drawer-content">
+      <header class="drawer-header">
+        <h2 id="drawer-escuela-nueva-title">Escuela Nueva (FEN)</h2>
+        <button class="close-drawer" data-drawer-close aria-label="Cerrar detalles"><i class="fa-solid fa-xmark"></i></button>
+      </header>
+      <div class="drawer-body">
+        <div class="drawer-meta-bar">
+          <span class="drawer-meta-badge"><i class="fa-solid fa-building-columns"></i> FEN y MEN</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-location-dot"></i> Colombia</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-calendar"></i> Inicio: 1975</span>
+        </div>
+
+        <div class="drawer-image-section">
+          <div class="drawer-image-card banner" style="padding: 0; overflow: hidden; background: none; border: none; box-shadow: none;">
+            <img src="img/educacion-flexible.jpg" alt="Mesa de trabajo circular con niños de diferentes edades colaborando con guías autoguuiadas en un aula rural interactiva" style="width: 100%; border-radius: var(--radius-md); object-fit: cover; aspect-ratio: 16/9; display: block;">
+            <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 8px; font-style: italic; line-height: 1.4; text-align: left;"> El modelo de promoción flexible y aprendizaje cooperativo de Escuela Nueva promueve liderazgos democráticos desde la infancia.</p>
+          </div>
+         <div class="drawer-image-card">
+    <img src="../img/logo-nueva.jpg"
+         alt="Logo Fundación Escuela Nueva"
+         class="drawer-logo">
+
+    <strong>Logo Institucional</strong>
+
+    <p>Logotipo de la Fundación Escuela Nueva Volvamos a la Gente.</p>
+</div>
+          <div class="drawer-image-card">
+            <i class="fa-solid fa-arrow-pointer"></i>
+            <strong>Recursos Web</strong>
+            <p><a href="http://www.escuelanueva.org" target="_blank" rel="noopener noreferrer">www.escuelanueva.org</a></p>
+          </div>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-book-open"></i> Breve Historia</h3>
+          <p>Co-diseñado a mediados de la década de 1970 por los pedagogos Vicky Colbert, Beryl Levinger y Óscar Mogollón, el modelo Escuela Nueva surgió como una respuesta disruptiva y vernácula para resolver las deficiencias estructurales de cobertura y calidad en las escuelas rurales multigrado de Colombia, caracterizadas por un único docente atendiendo múltiples grados simultáneamente.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-school"></i> Contexto Educativo</h3>
+          <p>Escuelas rurales dispersas y aisladas geográficamente del territorio nacional colombiano, con altos índices de deserción por necesidades de mano de obra agrícola estacional, baja densidad poblacional escolar y limitados recursos pedagógicos institucionales.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-lightbulb"></i> Enfoque Pedagógico</h3>
+          <p>Se asienta sólidamente sobre los principios de la Escuela Activa y el constructivismo social de John Dewey y María Montessori. Concibe al estudiante como el centro gravitacional del acto educativo, dotado de autonomía para gestionar su propio ritmo de aprendizaje mediante procesos metacognitivos sistemáticos.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-people-group"></i> Metodología Activa</h3>
+          <p>Implementa el aprendizaje personalizado, el aprendizaje colaborativo a través de mesas de trabajo circulares y la promoción flexible. Estructura el gobierno escolar estudiantil democrático, donde los niños asumen roles de liderazgo político y organizativo dentro del aula, vinculando las actividades escolares con los saberes comunitarios.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-laptop"></i> Uso de TIC</h3>
+          <p>Históricamente fundamentado en tecnologías analógicas impresas de alta transposición didáctica (Guías de Aprendizaje Autogestionado), el modelo se ha hibridado en las últimas dos décadas integrando contenidos digitales interactivos, plataformas de seguimiento offline y módulos de autoformación docente en tabletas.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-star"></i> Aportes Innovadores</h3>
+          <p>Desbancó la lección magistral frontal del docente al introducir rincones u "rincones de aprendizaje" especializados, guías didácticas conversacionales que eliminan el uso del tablero y un sistema de evaluación sumativa flexible que permite al estudiante ausentarse temporalmente por cosechas familiares sin perder su continuidad académica.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-chart-line"></i> Resultados o Impacto</h3>
+          <p>Declarado por el Banco Mundial en 1989 como una de las tres innovaciones de educación básica más exitosas del mundo en desarrollo. Estudios de la UNESCO (1998) ratificaron que Colombia logró que sus escuelas rurales superaran el rendimiento académico de las escuelas urbanas, un hito inédito a nivel internacional global.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i> Análisis Crítico</h3>
+          <p>El principal reto del modelo reside en su escalamiento masivo por parte del Estado, donde la burocratización institucional de las secretarías de educación tiende a diluir el rigor de la formación docente inicial y el suministro de las guías impresas actualizadas, desvirtuando la esencia comunitaria del diseño original.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-flag"></i> Conclusión</h3>
+          <p>Escuela Nueva es una obra maestra de la innovación didáctica social que demuestra que la calidad educativa no depende de la sofisticación tecnológica de punta, sino del rediseño radical de las interacciones humanas y metodológicas en el aula de clases.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-quote-left"></i> Referencias</h3>
+          <p>Colbert, V., & Arboleda, J. (2016). <em>Escuela Nueva General Model: A national innovation for improving primary education in rural Colombia</em>. Fundación Escuela Nueva.</p>
+          <p>Psacharopoulos, G., Rojas, C., & Velez, E. (1993). Achievement evaluation of Colombia's Escuela Nueva: Is can it be replicated? <em>Comparative Education Review</em>, 37(3), 263-276.</p>
+        </div>
+      </div>
+      <footer class="drawer-footer-actions">
+        <a href="nacional/experiencia2.html" class="hero-cta-btn" style="padding: 10px 22px; font-size: 0.85rem;">Ir a Ficha Estática <i class="fa-solid fa-chevron-right"></i></a>
+      </footer>
+    </div>
+  </div>
+
+  <!-- PTA Drawer -->
+  <div class="experience-drawer" id="drawer-pta" role="dialog" aria-modal="true" aria-labelledby="drawer-pta-title">
+    <div class="drawer-overlay" data-drawer-close></div>
+    <div class="drawer-content">
+      <header class="drawer-header">
+        <h2 id="drawer-pta-title">Programa Todos a Aprender (PTA)</h2>
+        <button class="close-drawer" data-drawer-close aria-label="Cerrar detalles"><i class="fa-solid fa-xmark"></i></button>
+      </header>
+      <div class="drawer-body">
+        <div class="drawer-meta-bar">
+          <span class="drawer-meta-badge"><i class="fa-solid fa-building-columns"></i> Ministerio de Educación Nacional</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-location-dot"></i> Colombia</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-calendar"></i> Inicio: 2011</span>
+        </div>
+
+        <div class="drawer-image-section">
+          <div class="drawer-image-card banner" style="padding: 0; overflow: hidden; background: none; border: none; box-shadow: none;">
+            <img src="img/todos.png" alt="Un tutor pedagógico del PTA orientando de manera dialógica a un docente en el diseño curricular" style="width: 100%; border-radius: var(--radius-md); object-fit: cover; aspect-ratio: 16/9; display: block;">
+            <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 8px; font-style: italic; line-height: 1.4; text-align: left;">El acompañamiento pedagógico situado del PTA transforma las prácticas de aula mediante la co-creación didáctica entre pares.</p>
+          </div>
+          <div class="drawer-image-card">
+    <img src="../img/logo-todos.png"
+         alt="Logo Programa Todos a Aprender"
+         class="drawer-logo">
+
+    <strong>Logo Institucional</strong>
+
+    <p>Logotipo oficial del Ministerio de Educación Nacional de Colombia - Programa Todos a Aprender (PTA).</p>
+</div>
+          <div class="drawer-image-card">
+            <i class="fa-solid fa-arrow-pointer"></i>
+            <strong>Recursos Web</strong>
+            <p><a href="http://www.mineducacion.gov.co" target="_blank" rel="noopener noreferrer">www.mineducacion.gov.co</a></p>
+          </div>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-book-open"></i> Breve Historia</h3>
+          <p>Lanzado como la estrategia bandera de equidad social y mejoramiento de la calidad educativa del Gobierno Nacional, el PTA se diseñó con el propósito técnico de transformar las prácticas pedagógicas en los establecimientos educativos oficiales que mostraban los desempeños más bajos en las evaluaciones estandarizadas nacionales.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-school"></i> Contexto Educativo</h3>
+          <p>Instituciones de educación básica primaria de carácter público a lo largo del territorio nacional colombiano, priorizando aquellas con altos índices de vulnerabilidad socioeconómica y bajos promedios en las competencias de Lenguaje y Matemáticas.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-lightbulb"></i> Enfoque Pedagógico</h3>
+          <p>Se fundamenta en el constructo del Desarrollo Profesional Docente Situado (DPDS) y el acompañamiento dialógico entre pares. Se asume que la verdadera transformación didáctica ocurre cuando el educador reflexiona sistemáticamente sobre su propia práctica en su contexto real de aula.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-people-group"></i> Metodología Activa</h3>
+          <p>Articula Comunidades de Aprendizaje (CDA) entre docentes para la planeación conjunta de clases, la observación mutua de prácticas de aula y el uso analítico de la evaluación formativa como herramienta diagnóstica continua, desplazando el enfoque punitivo tradicional de la evaluación.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-laptop"></i> Uso de TIC</h3>
+          <p>Promueve la integración de recursos educativos digitales abiertos, repositorios interactivos de contenidos pedagógicos y el uso analítico de software de diagnóstico educativo que permite a los docentes mapear de forma personalizada los aprendizajes rezagados de sus estudiantes.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-star"></i> Aportes Innovadores</h3>
+          <p>Su innovación más disruptiva es la introducción de la figura del "Tutor Pedagógico": un docente destacado que se desplaza directamente a los centros educativos para co-planear clases con los maestros de primaria y realizar modelamientos didácticos en tiempo real dentro del aula, abandonando los talleres teóricos tradicionales en hoteles.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-chart-line"></i> Resultados o Impacto</h3>
+          <p>Evaluaciones independientes evidenciaron mejoras progresivas y estadísticamente significativas en los promedios de las Pruebas Saber 3° y 5° en los colegios intervenidos por el programa, además de una estandarización de planes de estudio y prácticas pedagógicas más coherentes en las instituciones públicas de todo el país.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i> Análisis Crítico</h3>
+          <p>El programa padece tensiones debido a la alta rotación del personal tutor por inestabilidad en las contrataciones estatales, resistencia sindical esporádica ante la observación directa de las clases en el aula, y la sobrecarga administrativa impuesta a los docentes que reduce el tiempo neto de innovación didáctica.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-flag"></i> Conclusión</h3>
+          <p>El Programa Todos a Aprender consolida la formación docente situada como el motor principal de la innovación didáctica pública en Colombia, demostrando que el fortalecimiento de las prácticas pedagógicas de base institucional es la vía más efectiva para cerrar brechas de aprendizaje.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-quote-left"></i> Referencias</h3>
+          <p>Ministerio de Educación Nacional de Colombia. (2019). <em>Evolución pedagógica del Programa Todos a Aprender (PTA): Balance de una década</em>. MEN.</p>
+          <p>García, S., Maldonado, D., Perry, G., & Rodríguez, C. (2014). <em>Tras la excelencia docente: Cómo mejorar la calidad de la educación en Colombia</em>. Fundación Compartir.</p>
+        </div>
+      </div>
+      <footer class="drawer-footer-actions">
+        <a href="nacional/experiencia3.html" class="hero-cta-btn" style="padding: 10px 22px; font-size: 0.85rem;">Ir a Ficha Estática <i class="fa-solid fa-chevron-right"></i></a>
+      </footer>
+    </div>
+  </div>
+
+  <!-- FRS Drawer -->
+  <div class="experience-drawer" id="drawer-frs" role="dialog" aria-modal="true" aria-labelledby="drawer-frs-title">
+    <div class="drawer-overlay" data-drawer-close></div>
+    <div class="drawer-content">
+      <header class="drawer-header">
+        <h2 id="drawer-frs-title">Future Ready Schools (FRS)</h2>
+        <button class="close-drawer" data-drawer-close aria-label="Cerrar detalles"><i class="fa-solid fa-xmark"></i></button>
+      </header>
+      <div class="drawer-body">
+        <div class="drawer-meta-bar">
+          <span class="drawer-meta-badge"><i class="fa-solid fa-building-columns"></i> All4Ed & Dpto de Educación EE. UU.</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-location-dot"></i> Estados Unidos</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-calendar"></i> Inicio: 2014</span>
+        </div>
+
+        <div class="drawer-image-section">
+          <div class="drawer-image-card banner" style="padding: 0; overflow: hidden; background: none; border: none; box-shadow: none;">
+            <img src="img/future.jpg" alt="Estudiantes de secundaria utilizando dispositivos portátiles en un espacio interactivo de diseño modular flexible" style="width: 100%; border-radius: var(--radius-md); object-fit: cover; aspect-ratio: 16/9; display: block;">
+            <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 8px; font-style: italic; line-height: 1.4; text-align: left;"> El marco estratégico de Future Ready Schools alinea la infraestructura tecnológica con el desarrollo profesional y las metodologías activas.</p>
+          </div>
+          <div class="drawer-image-card">
+    <img src="../img/logo-f.png"
+         alt="Logo Future Ready Schools"
+         class="drawer-logo">
+
+    <strong>Logo Institucional</strong>
+
+    <p>Logotipo oficial de Future Ready Schools (All4Ed).</p>
+</div>
+          <div class="drawer-image-card">
+            <i class="fa-solid fa-arrow-pointer"></i>
+            <strong>Recursos Web</strong>
+            <p><a href="http://futureready.org" target="_blank" rel="noopener noreferrer">futureready.org</a></p>
+          </div>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-book-open"></i> Breve Historia</h3>
+          <p>Lanzada en la Casa Blanca bajo la administración Obama, la iniciativa Future Ready Schools surgió para operativizar la transición de los distritos escolares norteamericanos desde enfoques de enseñanza analógicos e industriales hacia ecosistemas de aprendizaje digital dinámicos, personalizados y equitativos.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-school"></i> Contexto Educativo</h3>
+          <p>Distritos escolares públicos y privados del sistema educativo de los Estados Unidos (K-12), abarcando realidades urbanas, suburbanas y rurales que buscan optimizar sus inversiones en tecnología educativa para generar un impacto real en el aprendizaje escolar.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-lightbulb"></i> Enfoque Pedagógico</h3>
+          <p>Se basa en el Aprendizaje Personalizado centrado en el Estudiante y el diseño de trayectorias formativas flexibles que reconocen el desarrollo autónomo de competencias individuales, sustentado en teorías de diseño instruccional ágil y constructivista.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-people-group"></i> Metodología Activa</h3>
+          <p>Impulsa el Aula Invertida (Flipped Classroom), el Aprendizaje Híbrido (Blended Learning) y la evaluación basada en competencias. FRS fomenta que los estudiantes gestionen sus tiempos y espacios de trabajo, asumiendo una alta cuota de responsabilidad en la consecución de sus metas académicas.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-laptop"></i> Uso de TIC</h3>
+          <p>Adopta el enfoque sistémico de tecnologías en la nube, sistemas de gestión del aprendizaje (LMS), analíticas de datos educativos en tiempo real para la toma de decisiones pedagógicas, plataformas adaptativas de autoaprendizaje y acceso universal a dispositivos (estrategias 1:1).</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-star"></i> Aportes Innovadores</h3>
+          <p>Su aporte más célebre es el "Marco de las Siete Engranajes" (7 Gears Framework), una matriz de planeación estratégica holística que establece que la innovación didáctica solo es viable si se alinean simultáneamente siete dimensiones: currículo y evaluación, desarrollo profesional, uso de tiempos y espacios, infraestructura tecnológica, presupuesto, datos y liderazgo.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-chart-line"></i> Resultados o Impacto</h3>
+          <p>Más de 3,500 superintendentes escolares que representan a millones de estudiantes se han adherido al compromiso FRS. El marco ha permitido el diseño técnico de planes maestros de tecnología digital que redujeron drásticamente la compra ineficiente de hardware desarticulado de objetivos pedagógicos claros.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i> Análisis Crítico</h3>
+          <p>El modelo evidencia vulnerabilidades derivadas de la descentralización fiscal del sistema estadounidense, donde los distritos escolares ubicados en zonas deprimidas o de bajos ingresos fiscales enfrentan serias dificultades para mantener la equidad en el acceso tecnológico respecto a distritos ricos, ensanchando la brecha digital horizontal.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-flag"></i> Conclusión</h3>
+          <p>Future Ready Schools demuestra de manera científica que la tecnología educativa es un potenciador estéril si no está precedida por una transformación sistémica del liderazgo institucional y una reconfiguración de las prácticas pedagógicas del aula.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-quote-left"></i> Referencias</h3>
+          <p>Alliance for Excellent Education. (2020). <em>Future Ready Schools: A systemic framework for digital learning readiness</em>. All4Ed.</p>
+          <p>Morus, M. (2018). <em>Digital learning transformation in K-12 education: An evaluation of the Future Ready Framework</em>. TechEducate Research.</p>
+        </div>
+      </div>
+      <footer class="drawer-footer-actions">
+        <a href="internacional/experiencia1.html" class="hero-cta-btn" style="padding: 10px 22px; font-size: 0.85rem;">Ir a Ficha Estática <i class="fa-solid fa-chevron-right"></i></a>
+      </footer>
+    </div>
+  </div>
+
+  <!-- FCL Drawer -->
+  <div class="experience-drawer" id="drawer-fcl" role="dialog" aria-modal="true" aria-labelledby="drawer-fcl-title">
+    <div class="drawer-overlay" data-drawer-close></div>
+    <div class="drawer-content">
+      <header class="drawer-header">
+        <h2 id="drawer-fcl-title">Future Classroom Lab (FCL)</h2>
+        <button class="close-drawer" data-drawer-close aria-label="Cerrar detalles"><i class="fa-solid fa-xmark"></i></button>
+      </header>
+      <div class="drawer-body">
+        <div class="drawer-meta-bar">
+          <span class="drawer-meta-badge"><i class="fa-solid fa-building-columns"></i> European Schoolnet</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-location-dot"></i> Bélgica / U.E.</span>
+          <span class="drawer-meta-badge"><i class="fa-solid fa-calendar"></i> Inicio: 2012</span>
+        </div>
+
+        <div class="drawer-image-section">
+          <div class="drawer-image-card banner" style="padding: 0; overflow: hidden; background: none; border: none; box-shadow: none;">
+            <img src="img/class1.jpg" alt="Una panorámica del Future Classroom Lab en Bruselas mostrando las seis zonas de aprendizaje activas" style="width: 100%; border-radius: var(--radius-md); object-fit: cover; aspect-ratio: 16/9; display: block;">
+            <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 8px; font-style: italic; line-height: 1.4; text-align: left;"> Las seis zonas pedagógicas del Future Classroom Lab transforman la disposición espacial del aula para empoderar los procesos de co-creación estudiantil.</p>
+          </div>
+         <div class="drawer-image-card">
+    <img src="../img/class.jpg"
+         alt="Logo Future Classroom Lab"
+         class="drawer-logo">
+
+    <strong>Logo Institucional</strong>
+
+    <p>Logotipo oficial de European Schoolnet - Future Classroom Lab.</p>
+</div>
+          <div class="drawer-image-card">
+            <i class="fa-solid fa-arrow-pointer"></i>
+            <strong>Recursos Web</strong>
+            <p><a href="http://fcl.eun.org" target="_blank" rel="noopener noreferrer">fcl.eun.org</a></p>
+          </div>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-book-open"></i> Breve Historia</h3>
+          <p>Creado en enero de 2012 por European Schoolnet como un espacio demostrativo y de investigación viva, el Future Classroom Lab nació con el propósito de desafiar las concepciones tradicionales del espacio escolar, invitando a ministerios, docentes y corporaciones tecnológicas a repensar de forma conjunta la articulación de la pedagogía, el diseño de espacios de aprendizaje y la tecnología.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-school"></i> Contexto Educativo</h3>
+          <p>Centros escolares e institutos de formación docente de la Unión Europea y países asociados, sirviendo como un laboratorio de experimentación avanzada de vanguardia para validar las tendencias de la educación del siglo XXI.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-lightbulb"></i> Enfoque Pedagógico</h3>
+          <p>Se fundamenta en las teorías del conectivismo de George Siemens y el diseño instruccional socio-constructivista. El FCL postula que el espacio físico y digital ejerce una influencia determinante sobre los procesos cognitivos y relacionales del estudiante (la noción del espacio como el tercer profesor).</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-people-group"></i> Metodología Activa</h3>
+          <p>Despliega de forma integrada el Aprendizaje Basado en la Indagación, el Diseño de Artefactos Digitales Mediales, la ludificación avanzada y el aprendizaje colaborativo multifocal, permitiendo la confluencia de diferentes dinámicas didácticas simultáneas en un mismo entorno de aprendizaje.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-laptop"></i> Uso de TIC</h3>
+          <p>Integra pantallas interactivas de gran formato, tecnologías de fabricación digital (impresoras 3D, cortadoras láser), dispositivos móviles individuales, herramientas avanzadas de realidad virtual y aumentada, mobiliario ergonómico reconfigurable dotado de conectividad IoT (Internet de las Cosas) y entornos de producción audiovisual (croma key).</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-star"></i> Aportes Innovadores</h3>
+          <p>Su innovación conceptual más radical es la división de la arquitectura escolar en seis zonas de aprendizaje diferenciadas y dinámicas: Investigar (indagación crítica), Crear (diseño y producción), Presentar (comunicación y feedback), Interactuar (participación activa), Intercambiar (colaboración interpar) y Desarrollar (reflexión autónoma y autoformación).</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-chart-line"></i> Resultados o Impacto</h3>
+          <p>Ha inspirado la creación de una red europea con cientos de laboratorios nacionales de aulas del futuro locales. Ha transformado los currículos de formación docente inicial en Europa, proveyendo metodologías validadas que permiten a las escuelas convencionales iniciar transiciones espaciales y metodológicas de bajo costo.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i> Análisis Crítico</h3>
+          <p>El principal desafío operativo del modelo radica en el elevado costo económico que demanda la réplica exacta de sus estaciones de tecnología avanzada en escuelas públicas convencionales, lo que puede provocar frustración si los docentes no comprenden que el cambio principal es metodológico, no mobiliario.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-flag"></i> Conclusión</h3>
+          <p>El Future Classroom Lab reconfigura la gramática escolar tradicional al demostrar de forma empírica que la innovación didáctica florece cuando las barreras físicas del aula se disuelven para dar paso a zonas funcionales orientadas al desarrollo de competencias críticas de los estudiantes.</p>
+        </div>
+
+        <div class="drawer-block">
+          <h3><i class="fa-solid fa-quote-left"></i> Referencias</h3>
+          <p>European Schoolnet. (2018). <em>The Future Classroom Lab handbook: Guidelines for rethinking learning spaces and pedagogies</em>. EUN.</p>
+          <p>Bannister, D. (2017). <em>Guidelines on exploring and adapting learning spaces in schools</em>. European Schoolnet.</p>
+        </div>
+      </div>
+      <footer class="drawer-footer-actions">
+        <a href="internacional/experiencia2.html" class="hero-cta-btn" style="padding: 10px 22px; font-size: 0.85rem;">Ir a Ficha Estática <i class="fa-solid fa-chevron-right"></i></a>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Scroll Top Button -->
+  <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Volver arriba">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-info">
+          <h3>Galería Virtual de Innovaciones Didácticas</h3>
+          <p>Repositorio académico estructurado para la sistematización y transferencia interactiva de experiencias educativas innovadoras.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Enlaces rápidos de navegación">
+          <ul class="footer-links">
+            <li><a href="#inicio"><i class="fa-solid fa-house"></i> Inicio</a></li>
+            <li><a href="#nacionales"><i class="fa-solid fa-location-dot"></i> Nacionales</a></li>
+            <li><a href="#internacionales"><i class="fa-solid fa-globe"></i> Internacionales</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Área de Investigación y Desarrollo Pedagógico. Innovación Educativa. Diseñado con fines de transferencia pedagógica.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript Main Logic -->
+  <script src="js/script.js"></script>
+</body>
+</html>
