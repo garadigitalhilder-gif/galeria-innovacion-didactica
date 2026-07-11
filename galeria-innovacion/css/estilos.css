@@ -1335,7 +1335,9 @@ section.py-5 {
   .logo-badge {
     width: 64px;
     height: 64px;
-    bottom: 14px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .card-actions {
@@ -1400,22 +1402,46 @@ section.py-5 {
     width: 100%;
   }
 
+  .container {
+    width: 92%;
+  }
+
+  .hero-home {
+    padding: 70px 0 56px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(1.7rem, 7vw, 2.35rem);
+  }
+
+  .hero-content .hero-lead {
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+  }
+
   .experience-card-header {
-    height: 180px;
+    height: 170px;
   }
 
   .experience-card-body {
-    padding: 24px 20px 20px;
+    padding: 22px 16px 18px;
   }
 
   .card-meta {
     flex-wrap: wrap;
+    gap: 8px;
   }
 
   .logo-badge {
-    width: 60px;
-    height: 60px;
-    bottom: 12px;
+    width: 58px;
+    height: 58px;
+    padding: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -1440,23 +1466,60 @@ section.py-5 {
     padding: 20px;
   }
 
+  .container {
+    width: 94%;
+  }
+
+  .hero-home {
+    padding: 60px 0 48px;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(1.5rem, 7vw, 2rem);
+  }
+
+  .hero-content .hero-lead {
+    font-size: 0.9rem;
+  }
+
   .experience-card-header {
-    height: 160px;
+    height: 150px;
   }
 
   .experience-badge {
-    font-size: 0.7rem;
-    padding: 4px 10px;
+    font-size: 0.68rem;
+    padding: 4px 9px;
   }
 
   .logo-badge {
     width: 54px;
     height: 54px;
-    padding: 8px;
+    padding: 7px;
+  }
+
+  .experience-card-body {
+    padding: 20px 14px 16px;
   }
 
   .experience-card-body h3 {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
+  }
+
+  .experience-card-body p {
+    font-size: 0.9rem;
+    height: auto;
+    -webkit-line-clamp: 4;
+  }
+
+  .card-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .details-btn,
+  .subpage-link {
+    width: 100%;
+    justify-content: center;
   }
 }
 
